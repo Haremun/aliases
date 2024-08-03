@@ -1,0 +1,4 @@
+alias gs="git status"
+alias gpull='git pull origin $(git branch --show-current)'
+alias gpush='git push origin $(git branch --show-current)'
+alias gamend='git commit --amend --no-edit'
